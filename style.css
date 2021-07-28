@@ -1,0 +1,96 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* universal css */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner css */
+
+.banner{
+    background-color: #264653;
+}
+
+.p-text-design{
+    font-weight: 100;
+    font-size: 14px; 
+}
+
+.right-text-content h1{
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.detail-text-design{
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-bg-color{
+    background-color: #E76F51;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+/* featured bike css  */
+
+.h-text{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: black;
+}
+
+.p-text{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #E76F51;
+}
+
+.img-gray-scale{
+    filter: grayscale(100%);
+    width: 288px;
+    height: 243px;
+}
+
+.img-non-gray-scale{
+    width: 288px;
+    height: 243px;
+}
+
+/* client css */
+.re-size-img{
+    width: 52%;
+}
+
+.img-container{
+    width: 80%;
+    margin: auto;
+}
+
+.round-img{
+    width: 70%;
+}
+
+.bg-fill{
+    color: #E77C40;
+}
+
+.bg-fill-none{
+    color: transparent;
+    background-color: #E77C40;
+}
+/* media qurey */
+
+
+@media (max-width: 576px) { 
+
+    .h-text {
+        font-size: 32px;
+        line-height: 54px;
+    } 
+}
