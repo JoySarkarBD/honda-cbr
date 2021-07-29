@@ -63,26 +63,18 @@ body{
 }
 
 /* client css */
-.re-size-img{
-    width: 52%;
+
+.filled{
+    color:#E77C40;
 }
 
-.img-container{
-    width: 80%;
-    margin: auto;
+.blanked{
+    color:#E77C40;
 }
 
-.round-img{
-    width: 70%;
-}
-
-.bg-fill{
-    color: #E77C40;
-}
-
-.bg-fill-none{
-    color: transparent;
-    background-color: #E77C40;
+.resized-img{
+    width: 135%;
+    margin-left: -15%;
 }
 /* media qurey */
 
@@ -94,3 +86,7 @@ body{
         line-height: 54px;
     } 
 }
+
+
+
+
