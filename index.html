@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <main>
         <!-- banner section  -->
         <section class="banner w-100">
@@ -35,34 +36,36 @@
                                 motorbikes
                                 have inline engines. Less sporting/general models make up CB series.</p>
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-bg-color text-light px-5" data-toggle="modal"
-                                data-target="#exampleModalCenter">
+                            <button type="button" class="btn btn-bg-color text-light px-5" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
                                 Purchase
                             </button>
                             <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
+                                            <h5 class="modal-title text-dark" id="exampleModalLabel tex">Honda CBR 300R
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body text-dark">
-                                            <h1>Honda CBR</h1>
-                                            <p>The Honda CBR models are a series of Honda sport bikes first introduced
-                                                in 1983. With the exception of the single-cylinder CBR125R, CBR150R,
-                                                CBR250R and CBR300R, all CBR motorbikes have inline engines. Less
-                                                sporting/general models make up CB series <br><br> CBR300R ABS
-                                                Rs.3,00,000
-                                                Estimated Price
-                                            </p>
+                                            <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings,
+                                                then the 2021 Honda CBR300R is your sweet spot between form and
+                                                function. It’s narrow, light, and a total blast to ride around town and
+                                                on twisty back roads. The single-cylinder engine offers great fuel
+                                                economy, with smooth and friendly torque delivery. And the affordable
+                                                cost and responsive handling makes it a terrific bike for first-time
+                                                riders, and for those looking to grow their garage. There’s even a
+                                                version available with our anti-lock braking system. Plus, this year the
+                                                CBR300R brings hot new graphics in two color choices. Time to get
+                                                riding!</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
+                                                data-bs-dismiss="modal">Close</button>
                                             <button type="button" class="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
@@ -76,15 +79,12 @@
                 </div>
             </div>
         </section>
-
         <!-- featured bike -->
-
         <section class="fetured-bikes mt-5 mb-5 w-100">
             <div class="container d-flex flex-column justify-content-center align-items-center mb-5">
                 <h1 class="h-text">Fetured Bikes 2021</h1>
                 <p class="p-text">Best bike collection</p>
             </div>
-
             <!-- featured bike image  -->
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -108,13 +108,16 @@
             </div>
 
         </section>
-
         <!-- happy clients -->
-        <section class="happy-clients">
+        <section class="happy-clients mt-5 mb-5">
+            <div class="container header mb-5">
+                <h1 class="text-center" style="color: #0A0826;">Happy <span style="color: #E76F51;">Clients says</span>
+                </h1>
+            </div>
             <div class="container row row-cols-1 row-cols-md-3 g-5 mx-auto mb-5">
                 <div class="col">
                     <div class="card">
-                        <div class="card-img container w-75 mt-5 mb-3">
+                        <div class="card-respon card-img container w-75 mt-5 mb-3">
                             <img src="images/user-1.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -187,10 +190,9 @@
                 </div>
             </div>
         </section>
-
         <!-- faq section  -->
-        <section class="faq">
-            <div class="container text-center d-flex flex-column justify-content-center align-items-center mb-5">
+        <section class="faq mt-5 mb-5">
+            <div class="container text-center d-flex flex-column justify-content-center align-items-center mt-5 mb-5">
                 <h1>Frequently Asked <span style="color: #E76F51;">Questions</span></h1>
             </div>
             <div class="container">
@@ -286,7 +288,111 @@
                     </div>
                 </div>
         </section>
+        <!-- bike gallery  -->
+        <section class="bike-gallery mt-5 mb-5">
+            <div class="container header text-center mb-5">
+                <h1>Bike <span style="color: #E76F51;">Gallery</span></h1>
+            </div>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <div class="img-container mx-auto mt-3 ms-3 me-3">
+                                <img src="images/bike-1.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Ducati Diavel</h5>
+                                <p style="color: #6C6C6C;" class="card-text text-center">The Ducati Diavel is the second
+                                    cruiser
+                                    motorcycle from Ducati
+                                    after the Indiana of 1986–1990. The 2011 model year Diavel debuted in November 2010
+                                    at the EICMA motorcycle show in Milan. The second generation Diavel debuted as a
+                                    2015 model on 3 March 2014 during the Volkswagen Group Night in Geneva.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="img-container mx-auto mt-3 ms-3 me-3">
+                                <img src="images/bike-2.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Cruiser Motorcycle</h5>
+                                <p style="color: #6C6C6C;" class="card-text text-center">A cruiser is a motorcycle in
+                                    the style of
+                                    American machines from
+                                    the 1930s to the early 1960s, including those made by Harley-Davidson, Indian,
+                                    Excelsior and Henderson. The riding position usually places the feet forward and the
+                                    hands up, with the spine erect or leaning back slightly.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="img-container mx-auto mt-3 ms-3 me-3">
+                                <img src="images/bike-3.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Ducati XDiavel S </h5>
+                                <p style="color: #6C6C6C;" class="card-text text-center">The Ducati XDiavel S is a
+                                    drastic change
+                                    from the cruiser
+                                    norm—that's apparent straight out of the box. The lines are so Ducati, hell the
+                                    horsepower is so Ducati. And in their eyes, this bike is a true American cruiser. It
+                                    has the low seat height, unarguably cruiser-esque lines, and forward foot controls.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- about you section -->
+        <section class="about-you mt-5 mb-5">
+            <div class="container">
+                <div class="heading">
+                    <h1 class="text-center mt-5 mb-5">Let Us Know <br><span style="color: #E76F51;">About You</span>
+                    </h1>
+                </div>
+                <form class="row g-3">
+                    <div class="col-md-12">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12 mt-5 d-flex justify-content-center">
+                        <button type="button" class="btn btn-bg-color text-light px-5">Send Us</button>
+
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
+
     <!-- bootstrap js cdn  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
